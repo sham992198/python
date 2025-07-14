@@ -1,0 +1,15 @@
+# to display user enter name followed by goodmorning using input function
+user = input("Enter name:")
+print("Good morning",user)
+
+# to detect double space in string
+x = "i am good  boy"
+print(x.find("  "))
+
+# Replace doble space problem with single space
+x = "i am good  boy"
+print(x.replace("  "," "))
+
+# to program following latter using escape seq char
+letter = "dear sham,\n\t this python course is nice.\nthanks!"
+print(letter)

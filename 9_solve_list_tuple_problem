@@ -1,0 +1,38 @@
+# store four fruit in list entered by f1
+fruit = []
+f1 = int(input("enter fruit:"))
+fruit.append(f1)
+f1 = int(input("enter fruit:"))
+fruit.append(f1)
+f1 = int(input("enter fruit:"))
+fruit.append(f1)
+f1 = int(input("enter fruit:"))
+fruit.append(f1)
+print(fruit)
+
+# #store four fruit in list entered by f1 in sorted manner
+fruit = []
+f1 = int(input("enter fruit:"))
+fruit.append(f1)
+f1 = int(input("enter fruit:"))
+fruit.append(f1)
+f1 = int(input("enter fruit:"))
+fruit.append(f1)
+f1 = int(input("enter fruit:"))
+fruit.append(f1)
+fruit.sort()
+print(fruit)
+
+#to sum list in 4 no
+x = [3,5,3,6]
+print(sum(x))
+
+# to count a no zero in followin list
+#l = [2,3,0,2,5,0]
+l = [2,3,0,2,5,0]
+print(l.count(0))
+
+# to count a no zero in followin tuple
+l = (2,3,0,2,5,0)
+n = l.count(0)
+print(n)
